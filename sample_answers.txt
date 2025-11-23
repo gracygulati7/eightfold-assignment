@@ -1,0 +1,25 @@
+# Software engineer-
+
+1. 
+I haven’t built a high-load system yet, but I understand the basics like using caching, load-balancing, and efficient database queries to keep systems scalable.
+
+follow-up:
+I’d use caching for frequent product data and load balancers to spread traffic across servers so the e-commerce site stays fast during peak loads.
+
+2. 
+I’d start by checking logs, spikes in traffic, and slow database queries to quickly identify what’s causing the sudden latency jump.
+
+follow-up:
+I’d check slow query logs and run EXPLAIN plans to identify inefficient joins, missing indexes, or heavy scans.
+
+3. 
+Keep the mapping in a scalable key-value store, offer simple APIs POST /shorten and GET /{code}, and handle traffic with load balancers, read caches (Redis), and database partitioning for write-heavy loads.
+
+follow-up:
+I’d avoid collisions by generating unique IDs (like using hashing with retries or auto-increment IDs) and enforce uniqueness at the DB level so the key-value store always stays consistent.
+
+4. 
+I faced a tricky bug in a college project, so I broke the problem into smaller parts, added logs, and fixed it by isolating the exact failing module.
+
+follow-up:
+I isolated the failing module by adding step-by-step logs, testing each part individually, and confirmed the fix by rerunning all test cases without errors.
