@@ -6,6 +6,12 @@ The agent supports multiple interview roles, asks dynamic follow-up questions, e
 
 ---
 
+## Demo Video
+
+Click below to watch the full demo:
+
+[Demo Video](eightfold_demo_video.mp4)
+
 ## Features
 
 ### Multi-role Interviewer
